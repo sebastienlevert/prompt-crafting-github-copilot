@@ -1,7 +1,5 @@
 # Prompt Crafting teqniques for GitHub Copilot every developer should know
 
-Slides: https://microsoft-my.sharepoint.com/:p:/p/buhollan/EadM4RNYrTNAt92bh1-Tp5wBNX3shhWedXBiKEWXUtympQ?e=EMVgRr
-
 ## Demo Setup
 
 This file contains a dev container with all of the necessary dependencies, including a Postgres database. It is highly recommended that you use this dev container for the project.
