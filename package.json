@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"tsc -w\" \"nodemon app.js\""
+    "dev": "concurrently \"tsc -w\" \"nodemon app.js\"",
+    "test": "tsc && mocha tests/**/*.test.js"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +14,20 @@
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
-    "@types/pg": "^8.11.6",
+    "@types/pg": "^8.11.10",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2",
+    "express": "^4.21.1",
     "jest": "^29.7.0",
-    "pg": "^8.11.5",
+    "pg": "^8.13.1",
     "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.9",
+    "@types/sinon": "^17.0.3",
+    "chai": "^5.1.2",
+    "mocha": "^10.7.3",
+    "sinon": "^19.0.2"
   }
 }

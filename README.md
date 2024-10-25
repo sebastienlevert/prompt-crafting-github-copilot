@@ -154,6 +154,10 @@ print out all env vars
 count the number of folders in node_modules
 ```
 
+```text
+remove all the node_modules folders
+```
+
 > OK, let's compile and run.
 
 ```bash
